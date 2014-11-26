@@ -54,7 +54,7 @@ give_word_regex = re.compile('[a-zA-Z]+')
 
 counts = {}
 
-splitted_words = getSplittedWords('files/Freeman/s01e01.txt')
+splitted_words = getSplittedWords('files/Freeman/s01e02.txt')
 knownWords = getKnownWords('knownWords')
 
 for word in splitted_words:
